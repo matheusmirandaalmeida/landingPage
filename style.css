@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+ }
+ 
+ body {
+   display: flex;
+   /* padding: 20px; */
+   /* background-color: black; */
+   /* margin: center; */
+   justify-content: center;
+   font-family: 'Lato', sans-serif;
+   font-size: 12px;
+ }
+ 
+ .container-body {
+   display: flex;
+   flex-direction: column;
+   border: 2px solid black;
+   width: 1100px;
+   justify-content: center;
+   align-content: center;
+   margin: 0px;
+ }
+ 
+ .container-header {
+   display: flex;
+   justify-content: center;
+   background-color: #1F2937;
+   color: white;
+   flex-shrink: 0;
+ }
+ 
+ nav {
+   display: flex;
+ }
+ 
+ .container-nav {
+   width: 800px;
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+   padding: 10px;
+   flex-shrink: 0;
+   font-size: 12px;
+   justify-self: flex-start;
+ }
+ 
+ .header-logo {
+   /* order: -1; */
+   /* margin: auto; */
+   /* justify-content: flex-start; */
+   height: 50px;
+ }
+ 
+ ul {
+   display: flex;
+   list-style-type: none;
+   gap: 12px;
+   flex-shrink: 0;
+   align-items: center;
+   
+ }
+ 
+ .container-main-part-zero {
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+   background-color: #1F2937;
+ }
+ 
+ .text-one {
+     display: flex;
+     justify-content: center;
+     width: 400px;
+     align-items: flex-start;
+     flex-direction: column;
+ }
+ 
+ h1 {
+   color: #F9FAF8;
+   font-size: 48px;
+   font-weight: bolder;
+ }
+ 
+ p {
+   text-align: left;
+   font-size: 18px;
+   color: #E5E7EB;
+ }
+ 
+ a {
+   display: flex;
+   justify-content: center;
+   padding: 2px 0px 5px;
+   width: 68px;
+   border-radius: 3px;
+   background: #1667e9;
+   text-align: center;
+   flex-wrap: nowrap;
+ }
+ 
+ .text-two {
+   background-color: #E5E7EB;
+   overflow: hidden;
+   height: 400px;
+ }
+ 
+ .img-header {
+   max-width: 100%;
+   height: auto;
+ }
+ 
+ section {
+   /* display: flex */
+   /* flex-direction: row; */
+   /* width: 400px;
+   height: 400px; */
+   padding: 30px;
+ }
+ 
+ h2 {
+   text-align: center;
+   margin-bottom: 30px;
+ }
+ 
+ .container-main-part-one {
+   display: flex;
+   justify-content: space-around;
+   border: 2px solid black;
+ }
+ 
+ .container-box {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin: auto;
+   margin-bottom: 30px;
+   width: 740px;
+   gap: 30px;
+ }
+ 
+ .box {
+   border: 2px solid #3882F6;
+   padding: 36px;
+   border-radius: 10px;
+   width: 35px;
+   height: 20px;
+ }
+ 
+ .box-one {
+   width: 180px;
+   overflow: hidden;
+   border-radius: 5%;
+ }
+ 
+ .img-tenis {
+   max-width: 100%;
+   height: 140px;
+   border-radius: 5%;
+ }
+ 
+ .box-two {
+   width: 180px;
+   overflow: hidden;
+   border-radius: 5%;
+ }
+ 
+ .img-calca {
+   max-width: 100%;
+   height: 140px;
+   border-radius: 5%;
+ }
+ 
+ .box-three {
+   width: 180px;
+   overflow: hidden;
+   border-radius: 5%;
+ }
+ 
+ .img-blusa {
+   max-width: 100%;
+   height: 140px;
+   border-radius: 5%;
+ }
+ 
+ .img-camisa {
+   max-width: 100%;
+   height: 140px;
+   border-radius: 5%;
+ }
+ 
+ .container-text-p {
+   display: flex;
+   text-align: center;
+ }
+ 
+ .container-main-part-gray {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   background-color: #E5E7EB;
+ }
+ 
+ .container-main-part-text {
+   font-size: 36px;
+   font-weight: bolder;
+   color: #1F2937;
+   width:500px;
+ }
+ 
+ .p-text {
+   text-align: justify;
+   font-style: italic;
+   font-size: 22px;
+   color: #1F2937;
+ }
+ 
+ .p-text-author {
+   display: flex;
+   justify-content: flex-end;
+   color: black;
+ }
+ 
+ .container-main-part-three {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   padding:10px;
+   margin-top:30px;
+   margin-bottom: 30px;
+ }
+ 
+ .container-blue {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 700px;
+   height: 100px;
+   border-radius: 5px;
+   background-color: #3882F6;
+   color: white;
+ }
+ 
+ footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 60px;
+   color: white;
+   text-align: center;
+   background-color: #1F2937;
+ }
+ 
+ 
