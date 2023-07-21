@@ -1,2 +1,2 @@
-# landingPage
- Page proposed by Project Odin
+# landingpage
+ Projeto concluído com a Project Odin
